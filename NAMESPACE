@@ -1,0 +1,6 @@
+export(plot.SJ, plot.SJ.dag, SJ, SJ.dag, rdag, moralize, generate.dag.data)
+useDynLib(spacejam)
+S3method(print, SJ)
+S3method(print, SJ.dag)
+S3method(plot, SJ)
+S3method(plot, SJ.dag)
